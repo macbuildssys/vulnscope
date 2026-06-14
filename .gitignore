@@ -1,0 +1,38 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+.env
+.venv
+venv/
+env/
+
+# Data and model artifacts (too large for git; use git-lfs or document separately)
+data/raw/
+data/processed/
+models/
+results/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# SQLite database
+data/vulnscope.db
+data/vulnscope.db-wal
+data/vulnscope.db-shm
+
+# Local API key config (stored in ~/.config/vulnscope/ instead)
+.vulnscope_key
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
